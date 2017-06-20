@@ -1,0 +1,28 @@
+@charset "utf-8";
+*{padding:0;margin:0;}
+/*login*/
+.login{width:300px;height:330px;font-size:12px;position:absolute;left:50%;top:50%;margin-left:-150px;margin-top:-165px;}
+.login .logo-s{text-align:center;margin-bottom:6px;}
+.login .content{background:#fff;padding:15px 30px 20px 30px;}
+.login .form-title{font-size:24px;font-family:Microsoft YaHei;font-weight:normal;margin:10px 0 15px 0;height:30px;}
+.login .copyright{color:#333;text-align:center;margin-top:10px;}
+.login table th{width:50px;text-align:right;color:#333;}
+.login table td{padding:6px 5px;text-align:left;}
+.login table input{border:solid 1px #ccc;width:160px;padding:5px;border-radius:3px; vertical-align:middle;}
+.login table input:focus{outline:0 none;border:solid 1px #E0ECFF;box-shadow:0 0 5px #8bade4;}
+.login table img{margin-left:5px; cursor:pointer;vertical-align:middle;}
+.form-action{padding:15px 0;text-align:center;}
+.form-action label{vertical-align:-3px;}
+.form-action em{font-style:normal;vertical-align:3px;margin:0 10px 0 3px;}
+
+
+/*layout*/
+.header{height:46px;}
+.logo{float:left;margin-left: 10px;width:300px;height:46px;overflow:hidden;}
+.logo img, .logo span{display:inline-block;vertical-align:middle;}
+.logo span{height:100%;}
+.user{float:right;min-width:200px;padding-right:10px;margin-top:15px;overflow:hidden;}
+.user .icon-user{display:inline-block;width:16px;height:16px;background:url(../themes/icons/user_suit.png) no-repeat 0 -1px;vertical-align:middle;margin-right:3px;}
+.footer {width: 100%;text-indent:20px;line-height: 35px;}
+
+

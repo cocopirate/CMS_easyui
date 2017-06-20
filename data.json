@@ -1,0 +1,27 @@
+{"total":20,
+"rows":[
+	{"Date":"2014-12-01","Month":"201401","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"金龙鱼","IsOnSale":"是","IsDisable":"否"},
+	{"Date":"2014-12-03","Month":"201402","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"","IsOnSale":"否","IsDisable":"否"},
+	{"Date":"2014-12-08","Month":"201403","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"金龙鱼","IsOnSale":"是","IsDisable":"否"},
+	{"Date":"2014-12-11","Month":"201404","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"金龙鱼","IsOnSale":"否","IsDisable":"否"},
+	{"Date":"2014-12-14","Month":"201405","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"","IsOnSale":"是","IsDisable":"否"},
+	{"Date":"2014-12-20","Month":"201406","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"金龙鱼","IsOnSale":"是","IsDisable":"否"},
+	{"Date":"2014-12-22","Month":"201407","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"金龙鱼","IsOnSale":"否","IsDisable":"否"},
+	{"Date":"2014-12-25","Month":"201408","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"","IsOnSale":"否","IsDisable":"否"},
+	{"Date":"2014-12-28","Month":"201409","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"金龙鱼","IsOnSale":"是","IsDisable":"否"},
+	{"Date":"2014-12-30","Month":"201410","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"金龙鱼","IsOnSale":"否","IsDisable":"否"},
+	{"Date":"2015-01-01","Month":"201411","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"","IsOnSale":"是","IsDisable":"否"},
+	{"Date":"2015-01-02","Month":"201412","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"金龙鱼","IsOnSale":"是","IsDisable":"否"},
+	{"Date":"2015-01-05","Month":"201501","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"金龙鱼","IsOnSale":"否","IsDisable":"否"},
+	{"Date":"2015-01-06","Month":"201502","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"","IsOnSale":"是","IsDisable":"否"},
+	{"Date":"2015-01-08","Month":"201503","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"金龙鱼","IsOnSale":"否","IsDisable":"否"},
+	{"Date":"2015-01-10","Month":"201504","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"金龙鱼","IsOnSale":"否","IsDisable":"否"},
+	{"Date":"2015-01-11","Month":"201505","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"","IsOnSale":"是","IsDisable":"否"},
+	{"Date":"2015-01-15","Month":"201506","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"金龙鱼","IsOnSale":"是","IsDisable":"否"},
+	{"Date":"2015-01-18","Month":"201507","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"金龙鱼","IsOnSale":"否","IsDisable":"否"},
+	{"Date":"2015-01-20","Month":"201508","GoodsTitle":"易购吧1000元充值卡","ItemCode":"Z1254852","SumStock":"10000","SalePrice":"100.00","MarketPrice":"1100.00","CategoryName":"食品类","BrandName":"金龙鱼","IsOnSale":"是","IsDisable":"否"}
+],
+"footer":[
+	{"Date":"汇总"}
+]
+}

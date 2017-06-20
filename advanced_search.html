@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8" />
+	<title>后台管理系统</title>
+    <link href="themes/default/easyui.css" rel="stylesheet" type="text/css" />
+    <link href="themes/icon.css" rel="stylesheet" type="text/css" />
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.easyui.min.js" type="text/javascript"></script>
+	<script src="js/easyui-lang-zh_CN.js" type="text/javascript"></script>
+	<script src="js/list.js" type="text/javascript"></script>
+</head>
+<body  class="easyui-layout">
+	<!--高级搜索-->
+	<div class="advanced-search clearfix" id="advancedSearchbox">
+		<h3>- 常用 -</h3>
+		<ul>
+			<li>
+				<input class="easyui-searchbox" data-options="menu:'#name'" style="width:200px" />
+				<div id="name">
+					<div data-options="name:'yes'">商品名称包含</div>
+					<div data-options="name:'no'">商品名称不包含</div>
+				</div>
+			</li>
+			<li>
+				<input class="easyui-searchbox" data-options="menu:'#number'" style="width:200px" />
+				<div id="number">
+					<div data-options="name:'yes'">货号包含</div>
+					<div data-options="name:'no'">货号不包含</div>
+				</div>
+			</li>
+			<li>
+				<input class="easyui-searchbox" data-options="menu:'#category'" style="width:200px" />
+				<div id="category">
+					<div data-options="name:'yes'">类目包含</div>
+					<div data-options="name:'no'">类目不包含</div>
+				</div>
+			</li>
+			<li>
+				<input class="easyui-searchbox" data-options="menu:'#sort'" style="width:200px" />
+				<div id="sort">
+					<div data-options="name:'yes'">分类包含</div>
+					<div data-options="name:'no'">分类不包含</div>
+				</div>
+			</li>
+			<li>
+				状态：<label class="multibox"><input type="radio" name="status" /><span>上架</span></label><label class="multibox"><input type="radio" name="status" /><span>下架</span></label>
+			</li>
+		</ul>
+		<h3>- 价格与库存 -</h3>
+		<ul>
+			<li>
+				<input class="easyui-searchbox" data-options="menu:'#price'" style="width:200px" />
+				<div id="price">
+					<div data-options="name:'1'">销售价大于</div>
+					<div data-options="name:'2'">销售价大于等于</div>
+					<div data-options="name:'3'">销售价等于</div>
+					<div data-options="name:'4'">销售价小于等于</div>
+					<div data-options="name:'5'">销售价小于</div>
+				</div>
+			</li>
+			<li>
+				<input class="easyui-searchbox" data-options="menu:'#sale'" style="width:200px" />
+				<div id="sale">
+					<div data-options="name:'1'">市场价大于</div>
+					<div data-options="name:'2'">市场价大于等于</div>
+					<div data-options="name:'3'">市场价等于</div>
+					<div data-options="name:'4'">市场价小于等于</div>
+					<div data-options="name:'5'">市场价小于</div>
+				</div>
+			</li>
+			<li>
+				<input class="easyui-searchbox" data-options="menu:'#stock'" style="width:200px" />
+				<div id="stock">
+					<div data-options="name:'1'">库存大于</div>
+					<div data-options="name:'2'">库存大于等于</div>
+					<div data-options="name:'3'">库存等于</div>
+					<div data-options="name:'4'">库存小于等于</div>
+					<div data-options="name:'5'">库存小于</div>
+				</div>
+			</li>
+			<li>
+				<select class="easyui-combobox" name="state" panelHeight="auto" style="width:150px;">
+				<option value="0">市场价大于销售价</option>
+				<option value="1">市场价大于等于销售价</option>
+				<option value="2">市场价等于销售价</option>
+				<option value="3">市场价小于等于销售价</option>
+				<option value="4">市场价小于销售价</option>
+			</select>
+			</li>
+		</ul>
+		<h3>- 属性 -</h3>
+		<ul>
+			<li>
+				<input class="easyui-searchbox" data-options="menu:'#brands'" style="width:200px" />
+				<div id="brands">
+					<div data-options="name:'yes'">品牌包含</div>
+					<div data-options="name:'no'">品牌不包含</div>
+				</div>
+			</li>
+			<li>
+				<input class="easyui-searchbox" data-options="menu:'#code'" style="width:200px" />
+				<div id="code">
+					<div data-options="name:'yes'">条形码包含</div>
+					<div data-options="name:'no'">条形码不包含</div>
+				</div>
+			</li>
+			<li>
+				<input class="easyui-searchbox" data-options="menu:'#address'" style="width:200px" />
+				<div id="address">
+					<div data-options="name:'yes'">产地包含</div>
+					<div data-options="name:'no'">产地不包含</div>
+				</div>
+			</li>
+			<li>
+				自动更新：<label class="multibox"><input type="radio" name="update" /><span>是</span></label> <label class="multibox"><input type="radio" name="update" /><span>否</span></label>
+			</li>
+		</ul>
+	</div>
+	<div class="window-footer">
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-ok" onclick="createSearchItems('#tt')">确定</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-reset" onclick="windowClose('#advanced-search')">重置</a>
+		<a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cancel" onclick="windowClose('#advanced-search')">取消</a>
+	</div>
+	
+	<script type="text/javascript">
+       $(function(){
+			getSearchH();
+		})
+    </script>
+</body>
+</html>
+
